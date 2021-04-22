@@ -1,9 +1,9 @@
 # stackoverflow-clone-client
 This is a simple cloned website-Stackoverflow. It is run in seperate containers. This is the front end repo.
 
-## FRONT-END
-*Front-end Framework: React.js (with redux)
-*styling: `SASS` and `BOOTSTRAP`
+#### FRONT-END
+* Front-end Framework: `React.js (with redux)`
+* Styling: `SASS` and `BOOTSTRAP`
 
 #### Base url - `http://localhost:3000/client`
 
