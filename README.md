@@ -5,7 +5,7 @@ This is a simple cloned website-Stackoverflow. It is run in seperate containers.
 *Front-end Framework: React.js (with redux)
 *styling: `SASS` and `BOOTSTRAP`
 
-## BASE URL - `http://localhost:3000/client`
+#### Base url - `http://localhost:3000/client`
 
 #### IMAGES
 <img src="/demo/images/1.png" width=340px /><img src="/demo/images/2.png" width=340px />
