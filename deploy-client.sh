@@ -1,11 +1,11 @@
 #!/bin/bash
 
-RUNNING_CLIENT_CONTAINERS=$(sudo docker ps | grep stackoverflow-client | awk '{print $1}')
-ALL_CLIENT_CONTAINERS=$(sudo docker ps -a | grep stackoverflow-client | awk '{print $1}')
+RUNNING_CLIENT_CONTAINERS_ID=$(sudo docker ps | grep stackoverflow-client | awk '{print $1}')
+ALL_CLIENT_CONTAINERS_ID=$(sudo docker ps -a | grep stackoverflow-client | awk '{print $1}')
 
 # Stop and remove old containers
-sudo docker stop "${RUNNING_CLIENT_CONTAINERS}"
-sudo docker container rm "${ALL_CLIENT_CONTAINERS}"
+sudo docker stop "${RUNNING_CLIENT_CONTAINERS_ID}"
+sudo docker container rm "${ALL_CLIENT_CONTAINERS_ID}"
 
 # Build API app's image
 sudo docker build -t adenicole/stackoverflow-client .
